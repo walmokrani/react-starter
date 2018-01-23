@@ -19,6 +19,7 @@ const babelrcConfig = {
       },
     ],
     '@babel/preset-stage-2',
+    '@babel/preset-flow',
     [
       '@babel/preset-react',
       {
@@ -41,7 +42,6 @@ const babelrcConfig = {
     // https://github.com/oliviertassinari/babel-plugin-transform-react-remove-prop-types
     ...(argv.isDebug ? [] : ['transform-react-remove-prop-types']),
   ],
-  ignore: [paths.appNodeModules, paths.appBuild],
 }
 
 export default babelrcConfig
