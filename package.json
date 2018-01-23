@@ -1,6 +1,10 @@
 {
   "name": "react-starter",
   "version": "0.0.0",
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3.8.6"
+  },
   "description": "simple react boilerplate",
   "repository": "git@github.com:iyucef/react-starter.git",
   "author": "Youcef Idiri <iyucef@gmail.com>",
